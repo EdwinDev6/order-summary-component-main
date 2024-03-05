@@ -96,6 +96,7 @@ h1 {
   width: 90%;
   border-radius: 7px;
   align-items: center;
+  padding: 5px;
 }
 
 .container .order .music .icon {
@@ -117,4 +118,8 @@ h1 {
 .container .order .title {
   color: var(--Darkblue);
   font-weight: 800;
+}
+
+.container .order .text{
+margin:20px
 }
