@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
 :root {
   /* Neutral */
   --Paleblue: hsl(225, 100%, 94%);
@@ -24,15 +25,15 @@ body {
 }
 
 .container {
-    width: 90%;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    min-width: 360px;
-  }
-  
+  width: 90%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  min-width: 360px;
+}
+
 h1 {
   color: var(--Darkblue);
 }
@@ -120,6 +121,7 @@ h1 {
   font-weight: 800;
 }
 
-.container .order .text{
-margin:20px
+.container .order .text {
+  margin: 20px;
+  font-size: 16px;
 }
